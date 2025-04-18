@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ManagerBar
+
+A modern web application built with Next.js, TypeScript, and Tailwind CSS.
+
+## Description
+
+ManagerBar is a web application designed to help manage and organize tasks efficiently. This project uses the latest features of Next.js, including the App Router, and is styled with Tailwind CSS.
+
+## Technologies Used
+
+- [Next.js](https://nextjs.org/) - React framework for building web applications
+- [TypeScript](https://www.typescriptlang.org/) - Typed JavaScript for better developer experience
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Node.js (version 18.17 or later)
+- npm or yarn
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+   ```bash
+   git clone <repository-url>
+   cd managerbar/web
+   ```
 
-## Learn More
+2. Install dependencies
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Run the development server
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-## Deploy on Vercel
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the application
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Project Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `src/app/` - Contains the application pages and components using the App Router
+- `public/` - Static assets like images and fonts
+
+## Features
+
+- Modern UI with responsive design
+- Fast page transitions with Next.js App Router
+- Type-safe code with TypeScript
+- Styling with Tailwind CSS
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
