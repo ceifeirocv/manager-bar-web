@@ -11,6 +11,7 @@ ManagerBar is a web application designed to help manage and organize tasks effic
 - [Next.js](https://nextjs.org/) - React framework for building web applications
 - [TypeScript](https://www.typescriptlang.org/) - Typed JavaScript for better developer experience
 - [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [Shadcn UI](https://ui.shadcn.com/) - Re-usable components built with Radix UI and Tailwind CSS
 
 ## Getting Started
 
@@ -49,6 +50,8 @@ ManagerBar is a web application designed to help manage and organize tasks effic
 ## Project Structure
 
 - `src/app/` - Contains the application pages and components using the App Router
+- `src/components/ui/` - Reusable UI components from Shadcn UI
+- `src/lib/` - Utility functions and shared code
 - `public/` - Static assets like images and fonts
 
 ## Features
@@ -57,6 +60,7 @@ ManagerBar is a web application designed to help manage and organize tasks effic
 - Fast page transitions with Next.js App Router
 - Type-safe code with TypeScript
 - Styling with Tailwind CSS
+- Beautiful and accessible UI components with Shadcn UI
 
 ## License
 

@@ -1,3 +1,5 @@
+import { Button } from "@/components/ui/button";
+
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-8">
@@ -9,6 +11,7 @@ export default function Home() {
             src/app/page.tsx
           </code>
         </p>
+        <Button>Test</Button>
       </main>
     </div>
   );
